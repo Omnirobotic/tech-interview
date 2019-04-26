@@ -10,7 +10,7 @@ Each challenge is contained in a given folder that has everything that you'll ne
 Also, look for written question that has to be completed directly in the readme files for us to see.
 
 Here is the list of all the challenges:
-- [General Written Questions](WrittenQuestions\Readme.md)
+- [General Written Questions](WrittenQuestions)
 - [Question 1](Q1)
 - [Question 2](Q2)
 - [Question 3](Q3)
