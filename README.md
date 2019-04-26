@@ -11,9 +11,9 @@ Also, look for written question that has to be completed directly in the readme 
 
 Here is the list of all the challenges:
 - [General Written Questions](WrittenQuestions\Readme.md)
-- [Question 1](Q1\README.MD)
-- [Question 2](Q2\README.MD)
-- [Question 3](Q3\README.MD)
+- [Question 1](Q1)
+- [Question 2](Q2)
+- [Question 3](Q3)
 - ...
 
 ---
