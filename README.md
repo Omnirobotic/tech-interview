@@ -1,4 +1,4 @@
-# TechInterview
+# tech-interview
 Dear futur employee, we enjoyed our first interview with you and would like to go a step further. This repository contains code questions and serves as a technnical interview for futur developer in our team.
 
 ## Goal
@@ -15,6 +15,12 @@ Here is the list of all the challenges:
 - [Question 2](Q2)
 - [Question 3](Q3)
 - ...
+
+## Get Started
+- Clone this Git repository.
+- Create a feature branch named 'feature/<YourName>'
+- Modify/Code/Debug/Implement/Hack ...
+- Push your version.
 
 ---
 
