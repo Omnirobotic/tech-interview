@@ -12,8 +12,6 @@ Also, look for written question that has to be completed directly in the readme 
 Here is the list of all the challenges:
 - [General Written Questions](WrittenQuestions)
 - [Question 1](Q1)
-- [Question 2](Q2)
-- [Question 3](Q3)
 - ...
 
 ## Get Started
