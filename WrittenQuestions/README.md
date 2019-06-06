@@ -15,6 +15,8 @@ string todo = "Write answer here";
         int a = 8;
         return a;
     }
+
+    string todo = "Write answer here";
 ```
 
 ## 3 - Explain what is the problem in this code snippet !
