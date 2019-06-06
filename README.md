@@ -15,10 +15,10 @@ Here is the list of all the challenges:
 - ...
 
 ## Get Started
-- Clone this Git repository.
-- Create a feature branch named 'feature/<YourName>'
-- Modify/Code/Debug/Implement/Hack ...
-- Push your version.
+- Clone this Git repository. The pc you are using should have GitBash and Source Tree.
+- Create a feature branch named 'feature/\<YourName>'
+- Modify/Code/Debug/Implement/Hack ... Do your stuff
+- Push your branch.
 
 ---
 
