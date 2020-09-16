@@ -87,3 +87,6 @@ Mat C = Rot * Tr * Sc;
 ```
 
 Which one would give the correct result? Why? And why the others would not.
+
+## 6
+Given 3 points `p0, p1, p2`, what would be the steps to get the area of the triangle formed by these points?
