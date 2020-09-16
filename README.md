@@ -2,7 +2,7 @@
 Dear futur employee, we enjoyed our first interview with you and would like to go a step further. This repository contains code questions and serves as a technnical interview for futur developer in our team.
 
 ## Goal
-Your goal is to complete all the challenges in this repository by completing the given code so that the your code passes the tests.
+Your goal is to complete all the challenges in this repository by completing the given code so that your code passes the tests.
 You will be given instructions for every question on what is expected.
 
 ## Structure
