@@ -69,3 +69,21 @@ void inverse_vector(const std::vector<int> &in, std::vector<int> &out)
 string todo = "Write answer here";
 
 ```
+
+
+## 5
+Given a 3D geometry at (0,0,0) of his frame of reference, and 3 transform matrices.
+```
+Rot -> Rotation Matrix
+Tr -> Translation Matrix
+Sc -> Scaling Matrix
+```
+Explain the difference between the results of the following multiplications (if assignation would be executed in a language like C# or C++):
+
+```cpp
+Mat A = Sc * Tr * Rot;
+Mat B = Tr * Rot * Sc;
+Mat C = Rot * Tr * Sc;
+```
+
+Which one would give the correct result? Why? And why the others would not.
