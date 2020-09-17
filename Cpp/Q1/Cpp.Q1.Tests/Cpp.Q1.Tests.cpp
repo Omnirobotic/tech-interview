@@ -13,7 +13,7 @@ namespace CppQ1Tests
     {
     public:
 
-        TEST_METHOD(synchronization)
+        TEST_METHOD(CppQ1Test)
         {
             int nb_command_to_add = 100000;
 
