@@ -72,13 +72,13 @@ string todo = "Write answer here";
 
 
 ## 5
-Given a 3D geometry at (0,0,0) of his frame of reference, and 3 transform matrices.
+Given a 3D geometry at (0,0,0) of his frame of reference, and 3 transform.
 ```
-Rot -> Rotation Matrix
-Tr -> Translation Matrix
-Sc -> Scaling Matrix
+Rot -> Rotation
+Tr -> Translation
+Sc -> Scaling
 ```
-Explain the difference between the results of the following multiplications (if assignation would be executed in a language like C# or C++):
+Assuming that the operators are properly implemented, explain the difference between the results of the following multiplications (if assignation would be executed in a language like C# or C++):
 
 ```cpp
 Mat A = Sc * Tr * Rot;
@@ -86,7 +86,9 @@ Mat B = Tr * Rot * Sc;
 Mat C = Rot * Tr * Sc;
 ```
 
-Which one would give the correct result? Why? And why the others would not.
 
 ## 6
 Given 3 points `p0, p1, p2`, what would be the steps to get the area of the triangle formed by these points?
+
+## 7
+Given 2 arbitrary 3D vectors, how can I know if the angle between them is exactly 90deg?
