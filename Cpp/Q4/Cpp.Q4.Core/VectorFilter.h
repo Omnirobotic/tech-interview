@@ -13,7 +13,7 @@ class VectorFilter
 
         if (raw_vector == nullptr)
             return filtered_vector;
-
+         
         for (auto value : *raw_vector)
         {
             if (value >= min_limit_inclusive && value < max_limit_exclusive)
