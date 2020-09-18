@@ -14,11 +14,12 @@ class WorkDescription
 {
 private:
     std::string _prefix;
+    std::string _intellectual_extra_info;
     EWorkDescriptionType _type;
 
 public:
-    WorkDescription(const std::string& prefix, EWorkDescriptionType type) :
-        _prefix(prefix), _type(type)
+    WorkDescription(const std::string& prefix, EWorkDescriptionType type, std::string intellectual_extra_info = "") :
+        _prefix(prefix), _intellectual_extra_info(intellectual_extra_info), _type(type)
     {
     }
 
@@ -39,7 +40,7 @@ public:
             {
                 if(_type == Intellectual)
                 {
-                    description = _prefix + "Intellectual";
+                    description = _prefix + "Intellectual " + _intellectual_extra_info;
                 }
             }
         }

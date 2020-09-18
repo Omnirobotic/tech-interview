@@ -13,6 +13,7 @@ namespace CppQ1Tests
     {
     public:
 
+        ///TODO: Modify Shop.h to make sure this test passes all the time and explain why it might pass sometimes.
         TEST_METHOD(CppQ1Test)
         {
             int nb_command_to_add = 100000;
