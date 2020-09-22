@@ -86,9 +86,30 @@ Mat B = Tr * Rot * Sc;
 Mat C = Rot * Tr * Sc;
 ```
 
+string todo = "Write answer here";
+
 
 ## 6
 Given 3 points `p0, p1, p2`, what would be the steps to get the area of the triangle formed by these points?
 
+string todo = "Write answer here";
+
 ## 7
 Given 2 arbitrary 3D vectors, how can I know if the angle between them is exactly 90deg?
+
+string todo = "Write answer here";
+
+## 8
+In C++, how would you represent a plane.
+
+string todo = "Write answer here";
+
+## 9
+You have a list of 3D points and you need to keep only points within 0.1m of another 3D point. What is the most efficient way to do it?
+
+string todo = "Write answer here";
+
+## 10
+How can you know that a point is located on a plane (not under, not over)?
+
+string todo = "Write answer here";
