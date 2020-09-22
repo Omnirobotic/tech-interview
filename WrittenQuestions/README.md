@@ -35,7 +35,7 @@ string todo = "Write answer here";
 
     public:
         B(){
-            array = new int[5];
+            _array = new int[5];
         }
 
         ~B(){
