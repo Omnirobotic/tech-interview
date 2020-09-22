@@ -115,6 +115,11 @@ How can you know that a point is located on a plane (not under, not over)?
 string todo = "Write answer here";
 
 ## 11
+In Scrum, what are the usual state transitions for a User Story?
+
+string todo = "Write answer here";
+
+## 12
 In Scrum, what would be your criteria to put a User Story to Done?
 
 string todo = "Write answer here";
