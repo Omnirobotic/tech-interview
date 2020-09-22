@@ -6,6 +6,9 @@ namespace Q1.Tests
     [TestClass]
     public class Q1Tests
     {
+        //TODO Implement the function Simplify to make this test pass.
+        // The implementation must be as efficient as possible.
+        // In the reality we might have thousand of points.
         [TestMethod]
         public void SimplifyStraitLine()
         {
@@ -33,6 +36,9 @@ namespace Q1.Tests
             Assert.AreEqual(expectedCount, res5.Count);
         }
 
+        //TODO Implement the function Simplify to make this test pass.
+        // The implementation must be as efficient as possible.
+        // In the reality we might have thousand of points.
         [TestMethod]
         public void SimplifyNoisyPolyline()
         {
