@@ -11,11 +11,10 @@ Also, look for written question that has to be completed directly in the readme 
 
 Here is the list of all the challenges:
 - [General Written Questions](WrittenQuestions)
-- [Question 1](Q1)
-- [Question 2](Cpp/Q1)
-- [Question 3](Cpp/Q2)
-- [Question 4](Cpp/Q3)
-- [Question 5](Cpp/Q4)
+- [Question 1](Cpp/Q1)
+- [Question 2](Cpp/Q2)
+- [Question 3](Cpp/Q3)
+- [Question 4](Cpp/Q4)
 
 ## Get Started
 - Clone this Git repository. The pc you are using should have GitBash and Source Tree.
