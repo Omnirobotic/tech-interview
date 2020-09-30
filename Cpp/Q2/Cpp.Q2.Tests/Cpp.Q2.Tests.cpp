@@ -11,7 +11,7 @@ namespace CppQ2Tests
 	{
 	public:
 
-        ///TODO: Explain how bad the design of WorkDescription is and fix it.
+        ///TODO: As an Object Oriented programmer, explain how bad the design of WorkDescription is and fix it.
 		TEST_METHOD(CppQ2Test)
 		{
             WorkDescription desc1("Prefix1 ", EWorkDescriptionType::HardOnBack);
