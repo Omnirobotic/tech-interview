@@ -5,7 +5,7 @@
 
 class VectorFilter
 {
-    ///TODO Create all useful unit tests for this very complex function. We want 100% of coverage.
+    ///TODO Create a unit test project with unit tests to validate this very complex function. We want 100% of coverage.
     static std::vector<int> keep_in_between_values(const std::shared_ptr<std::vector<int>> raw_vector, 
         int min_limit_inclusive, int max_limit_exclusive)
     {

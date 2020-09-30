@@ -6,7 +6,7 @@ class Shop
 {
     std::vector<int> _commands;
 public:
-    int _nb_command_pending;
+    int _nb_command_pending = 0;
 
     void add_commands(int nb_command)
     {
