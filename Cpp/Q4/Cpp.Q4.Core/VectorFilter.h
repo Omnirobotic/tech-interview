@@ -1,25 +1,19 @@
 #pragma once
 
-#include <vector>
 #include <memory>
 
 class VectorFilter
 {
     ///TODO Create a unit test project with unit tests to validate this very complex function. We want 100% of coverage.
-    static std::vector<int> keep_in_between_values(const std::shared_ptr<std::vector<int>> raw_vector, 
-        int min_limit_inclusive, int max_limit_exclusive)
+    ///If you don't know how to create unit tests, just enumerate all test cases you can think of.
+    static bool is_within_range(const std::shared_ptr<int> value_ptr, int min_limit_inclusive, int max_limit_exclusive)
     {
-        std::vector<int> filtered_vector;
+        if (min_limit_inclusive >= max_limit_exclusive)
+            throw std::exception("Invalid min/max combination.");
 
-        if (raw_vector == nullptr)
-            return filtered_vector;
+        if (value_ptr == nullptr)
+            return false;
 
-        for (auto value : *raw_vector)
-        {
-            if (value >= min_limit_inclusive && value < max_limit_exclusive)
-                filtered_vector.push_back(value);
-        }
-
-        return filtered_vector;
+        return (*value_ptr >= min_limit_inclusive && *value_ptr < max_limit_exclusive);
     }
 };
