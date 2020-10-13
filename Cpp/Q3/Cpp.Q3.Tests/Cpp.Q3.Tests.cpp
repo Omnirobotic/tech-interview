@@ -20,6 +20,7 @@ namespace CppQ3Tests
 
             {
                 //*************** Can change this section ****************** Start
+                //Creation of teachers must stay here.
                 Teacher* teacher1 = new Teacher();
                 Teacher* teacher2 = new Teacher();
                 Teacher* teacher3 = new Teacher();
@@ -27,6 +28,7 @@ namespace CppQ3Tests
 
                 {
                     //*************** Can change this section ****************** Start
+                    //Creation of students must stay here.
                     Student* student1 = new Student("Philippe", 14);
                     Student* student2 = new Student("Marc", 15);
                     //*************** Can change this section ****************** End
