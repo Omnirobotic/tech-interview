@@ -15,6 +15,7 @@ Here is the list of all the challenges:
 - [Question 2](Cpp/Q2)
 - [Question 3](Cpp/Q3)
 - [Question 4](Cpp/Q4)
+- [Question 5](Cpp/Q5)
 
 ## Get Started
 - Clone this Git repository. The pc you are using should have GitBash and Source Tree.

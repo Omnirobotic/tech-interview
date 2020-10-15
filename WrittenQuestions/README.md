@@ -2,7 +2,7 @@
 **Please answer the questions below by writing directly in this README file under each question. When you're done, commit and push your modifications in a branch of the name of you choosing.**
 
 
-## Development
+## ------------------- Development -----------------------------------------------------------------------------------------
 **No matter the position you're applying for, please answer the following questions.**
 
 
@@ -60,7 +60,9 @@ In Scrum, what would be your criteria to put a User Story to Done?
 **Answser**:
 
 
-## 3D Mathematics
+
+
+## ------------------- 3D Mathematics -----------------------------------------------------------------------------------------
 **If you're familiar with 3D mathematics and/or you're applying for a 3D Developer position, please answer the following questions.**
 
 
@@ -77,12 +79,11 @@ Rot -> Rotation
 Tr -> Translation
 Sc -> Scaling
 ```
-Assuming that the operators are properly implemented, explain the difference between the results of the following multiplications (if assignation would be executed in a language like C# or C++):
+Assuming that the operators are properly implemented, explain the difference between the results of the following multiplications:
 
 ```cpp
 Mat A = Sc * Tr * Rot;
 Mat B = Tr * Rot * Sc;
-Mat C = Rot * Tr * Sc;
 ```
 
 **Answser**:
@@ -95,8 +96,13 @@ Given 2 arbitrary 3D vectors, how can I know if the angle between them is exactl
 
 
 ### Question 4
-Your function receives a list of 3D points and also a single 3D point, you need to keep only points within 0.1m of that single 3D point.
-What is the most efficient way to do it knowing that doing a square root is very costy and you might receive a list of 1 million points ?
+Your function receives 2 3D points (p1 and p2), it needs to return true is both points are within 0.1m of each other.
+Current implementation:
+bool are_close(Vector3 p1, Vector3 p2)
+{
+    return sqrtf((p1.X - p2.X)*(p1.X - p2.X) + (p1.Y - p2.Y)*(p1.Y - p2.Y) + (p1.Z - p2.Z)*(p1.Z - p2.Z)) <= 0.1f;
+}
+What is the most efficient way to do it knowing that doing a square root is very costy and you might call this function for 1 million points ?
 
 **Answser**:
 
@@ -107,7 +113,10 @@ How can you know that a point is located on a plane (not under, not over)?
 **Answser**:
 
 
-## Linux
+
+
+
+## ------------------- Linux -----------------------------------------------------------------------------------------
 **If you're familiar with Linux and/or you're applying for a DevOps position, please answer the following questions.**
 
 
