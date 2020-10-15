@@ -59,7 +59,37 @@ In Scrum, what would be your criteria to put a User Story to Done?
 
 **Answser**:
 
+### Question 4
+Explain what this code is for
 
+for(int x=0; x<n; x++)
+{
+   for(int y=0; y<n-1; y++)
+   {
+       if(array[y]>array[y+1])
+       {
+           int temp = array[y+1];
+           array[y+1] = array[y];
+           array[y] = temp;
+       }
+   }
+}
+**Answser**:
+
+
+### Question 5
+in which context "smarts pointer" are usefull?
+
+**Answser**:
+
+
+### Question 6
+Give one specific property of each std container
+
+std::vector :
+std::list   :
+std::deque  :
+std::map    :
 
 
 ## ------------------- 3D Mathematics -----------------------------------------------------------------------------------------
@@ -96,13 +126,18 @@ Given 2 arbitrary 3D vectors, how can I know if the angle between them is exactl
 
 
 ### Question 4
-Your function receives 2 3D points (p1 and p2), it needs to return true is both points are within 0.1m of each other.
-Current implementation:
-bool are_close(Vector3 p1, Vector3 p2)
+You have a list of 1000000 3d points "point_list" and a specific point "p1". You want to calculate the number of points near this points (nearer than 0.01)
+could you improve the speed of this code without compromizing the result.
+
+float near_distance = 0.01f
+int count = 0
+for( auto p2 : point_list)
 {
-    return sqrtf((p1.X - p2.X)*(p1.X - p2.X) + (p1.Y - p2.Y)*(p1.Y - p2.Y) + (p1.Z - p2.Z)*(p1.Z - p2.Z)) <= 0.1f;
+	if(sqrtf((p1.X - p2.X)*(p1.X - p2.X) + (p1.Y - p2.Y)*(p1.Y - p2.Y) + (p1.Z - p2.Z)*(p1.Z - p2.Z)) <= distance))
+	{
+		count++;
+	}
 }
-What is the most efficient way to do it knowing that doing a square root is very costy and you might call this function for 1 million points ?
 
 **Answser**:
 
