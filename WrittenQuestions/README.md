@@ -62,17 +62,20 @@ In Scrum, what would be your criteria to put a User Story to Done?
 ### Question 4
 Explain what this code is for
 
-for(int x=0; x<n; x++)
+void do_something(int* array, int n)
 {
-   for(int y=0; y<n-1; y++)
-   {
-       if(array[y]>array[y+1])
-       {
-           int temp = array[y+1];
-           array[y+1] = array[y];
-           array[y] = temp;
-       }
-   }
+	for(int x=0; x<n; x++)
+	{
+	   for(int y=0; y<n-1; y++)
+	   {
+		   if(array[y]>array[y+1])
+		   {
+			   int temp = array[y+1];
+			   array[y+1] = array[y];
+			   array[y] = temp;
+		   }
+	   }
+	}
 }
 **Answser**:
 
