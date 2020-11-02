@@ -81,7 +81,7 @@ void do_something(int* array, int n)
 
 
 ### Question 5
-in which context "smarts pointer" are usefull?
+in which context "smarts pointer" are useful?
 
 **Answser**:
 
