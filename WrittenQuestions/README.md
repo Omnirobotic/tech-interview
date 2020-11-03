@@ -87,7 +87,7 @@ in which context "smarts pointer" are useful?
 
 
 ### Question 6
-Give one specific property of each std container
+Give one specific characteristics for each std container
 
 std::vector :
 std::list   :
